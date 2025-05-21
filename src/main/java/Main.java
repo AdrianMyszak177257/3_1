@@ -39,3 +39,31 @@ public class Main {
     3. Wyświetli wynik w formacie:
 
         „Suma cyfr: 10".
+
+MASZ TTUTAJ 
+        
+import java.util.Scanner;
+
+public class SumaCyfr {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Wczytanie liczby od użytkownika
+        System.out.print("Podaj liczbę całkowitą: ");
+        int liczba = scanner.nextInt();
+
+        // Zamiana liczby na wartość bezwzględną (ignorowanie znaku minus)
+        liczba = Math.abs(liczba);
+
+        int suma = 0;
+
+        // Obliczanie sumy cyfr
+        while (liczba > 0) {
+            suma += liczba % 10;  // dodaj ostatnią cyfrę
+            liczba /= 10;         // usuń ostatnią cyfrę
+        }
+
+        // Wyświetlenie wyniku
+        System.out.println("Suma cyfr: " + suma);
+    }
+}
