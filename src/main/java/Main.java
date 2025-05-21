@@ -26,3 +26,16 @@ public class Main {
   // void addition() {
   //     assertEquals(2, 1 + 1);
   // }
+
+    Zadanie 25. Obliczanie sumy cyfr liczby całkowitej
+
+    Opis zadania:
+    Napisz program w języku Java, który:
+
+    1. Wczyta od użytkownika liczbę całkowitą (może być dodatnia lub ujemna).
+    2. Obliczy sumę wszystkich cyfr tej liczby (ignorując znak minus, jeśli występuje).
+
+        Przykład: dla liczby `-1234` → suma cyfr to `1 + 2 + 3 + 4 = 10`.
+    3. Wyświetli wynik w formacie:
+
+        „Suma cyfr: 10".
