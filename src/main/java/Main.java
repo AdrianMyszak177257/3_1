@@ -22,8 +22,6 @@ public class Main {
     }
 }
 
-Maciasek kutasek
-ALE BYM MACIASKA MATULE WYLIZAL
   // @Test
   // void addition() {
   //     assertEquals(2, 1 + 1);
